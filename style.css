@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #525252;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.header-bg{    
+    background-image: linear-gradient(45deg, #ffffff, #e4e4e4);
+    width: 100%;
+    height: 600px;    
+}
+
+.header-menu{
+    border-bottom: 1px solid #bdbdbd;
+    height: 80px;
+}
+
+.header-menu ul{
+    margin-left: 20px;
+    padding-top: 10px;
+    float: right;
+
+}
+
+.header-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+.header-menu ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #525252;
+}
+
+.contact-button{
+    background: #bdbcbc;
+    padding: 5px 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.name{
+    margin-top: -60px;  
+    margin-bottom: 5px;
+    color: orange; 
+}
+
+.left-width{
+    width: 50%;
+    float: left;
+}
+.left-width p{
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.right-width img{
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+  
+}
+
+.orange-line{
+    background-color: orange;
+    width: 70px;
+    height: 5px;
+}
+
+.link-button{
+    background: #bdbcbc;
+    padding: 10px 25px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.about-bg{
+    background: #ffffff;
+    width: 100%;
+    height: 550px;  
+}
+
+.about-right{
+    width: 45%;
+    float: right;
+    margin-top: 30px;
+}
+
+.about-right p{
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.about-left img{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}    
+
+.about-right h2{
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+
+.download-button{
+    border: 1px solid #bdbcbc;
+    padding: 10px 25px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #525252;
+}
+
+.download-button img{
+    width: 17px;
+    height: 17px;
+    padding-right: 5px;    
+}
+
+.services-bg{
+    height: 620px;
+    background-image: linear-gradient(120deg, #ffffff, #e4e4e4);
+    padding-top: 50px;  
+}
+
+.services{
+    margin-left: 45px;
+}
+
+.service-1{
+    background: orange;
+    padding: 20px 30px;
+    height: 270px;
+    text-align: center;
+    border-radius: 10px;
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+
+.service-1 h3{
+    color: white;
+}
+
+.service-1 p{
+    line-height: 25px;
+}
+
+.specialize-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.specialize-text h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.specialize-text p{
+    margin-bottom: -30px;
+}
+
+.service-1 img{
+    width: 20%;
+}
+
+.project-bg{
+    height: 480px;
+    background-image: linear-gradient(120deg, #ffffff, #e4e4e4);
+    padding-top: 50px;   
+}
+
+.project-1{
+    background: #ffffff;
+    box-shadow: 5px 5px 30px #c7c7c7;
+    border-radius: 10px;
+    width: 25%;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;   
+    float: left;    
+}
+
+.project-1 img{
+    width: 100%;
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title h2{
+    margin: 0;
+}
+
+.project-section{
+    margin-top: 50px;
+    margin-left: 95px;
+}
+
+.color-highlight{
+    color: orange;
+}
+
+.orange-line2{
+    margin: auto;
+    background-color: orange;
+    width: 70px;
+    height: 5px;
+}
+
+.work-inquiry{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work-inquiry img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    position: relative;
+    display: block;
+}
+
+.work-inquiry h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 270px;
+    color: white;
+}
+
+.work-inquiry .link-button{
+    position: absolute;   
+    margin-top: -85px;
+    margin-left: 560px;    
+}
+
+.footer-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-text h3{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: -10px;
+    font-weight: 200;
+}
+
+.footer-icon{
+    margin: auto;
+}
+
+.footer-icon img{
+    margin: 5px 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;    
+}
